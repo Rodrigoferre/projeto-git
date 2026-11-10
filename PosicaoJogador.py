@@ -11,3 +11,12 @@ match posicaojogador:
         print ("Jogador que faz gols")
     case _:
         print("Posição inválida")
+
+
+resposta = "Sim"
+
+while resposta == "Sim":
+    print("Treino iniciado!")
+    print("Deseja realizar outro treino?")
+    if resposta != "Sim":
+        print("Treino encerrado!")
